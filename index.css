@@ -1,0 +1,88 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #0A1930;
+}
+
+#landing{
+    background-color: #0A1B2F;
+    height: 100%;
+}
+
+.bg-dark-blue{
+    background-color: #0A1930;
+}
+
+.text-grey{
+    color: #848FAD;
+}
+
+.text-light-blue{
+    color: #64EACF;
+}
+
+.btn-light-blue{
+    color: #64EACF;
+    border-color: #64EACF;
+    border-width: 2px;
+}
+
+.profile{
+    border: 5px solid #64EACF;
+    background: #64EACF;
+}
+
+.btn-light-blue:hover{
+    /* color: #848FAD;
+    background-color: #64EACF; */
+    color: #64EACF;
+    font-weight: bold;
+    border-color: #64EACF;
+    border-width: 2px;
+}
+
+.navbar-button:hover{
+    color: #64EACF;
+    font-weight: bold;
+}
+
+.down-arrow{
+    text-decoration: none;
+    color: white;
+}
+
+.down-arrow:hover{
+    transform: scale(1.5);
+}
+
+/* unvisited link */
+.down-arrow.a:link {
+    color: white;
+}
+  
+/* visited link */
+.down-arrow.a:visited {
+    color: white;
+}
+
+.image-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container .overlay{
+    opacity: 0.2;
+    position: absolute;
+    background: linear-gradient(to bottom, #64EACF, #64EACF);
+    /* border-radius: 200px; */
+}
+
+.project-text-box{
+    background-color: #162A45;
+}
+
+.footer{
+    background-color: #162A45;
+}
